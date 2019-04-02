@@ -1,0 +1,21 @@
+name: flutter_speech_recognition
+description: A Flutter plugin, which transform speech to text on Android and iOS.
+version: 0.0.1
+author: VBlago Ltd. <vblago.ltd@gmail.com>
+homepage: https://github.com/vblago/flutter_speech_recognition
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: ltd.vblago.flutter_speech_recognition
+    pluginClass: FlutterSpeechRecognitionPlugin
