@@ -5,3 +5,19 @@
 .pub/
 
 build/
+.idea/libraries/Flutter_for_Android.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/codeStyles/Project.xml
+.idea/libraries/Dart_SDK.xml
+.idea/libraries/Flutter_Plugins.xml
+.idea/runConfigurations/example_lib_main_dart.xml
+android/.settings/org.eclipse.buildship.core.prefs
+android/.classpath
+android/.project
+example/android/.project
+example/android/.settings/org.eclipse.buildship.core.prefs
+example/android/app/.classpath
+example/android/app/.project
+example/android/app/.settings/org.eclipse.buildship.core.prefs
