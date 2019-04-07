@@ -6,7 +6,7 @@ import Speech
 public class SwiftFlutterSpeechRecognitionPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "flutter_speech_recognition", binaryMessenger: registrar.messenger())
-    let instance = SwiftFlutterSpeechRecognitionPlugin()
+    let instance = SwiftFlutterSpeechRecognitionPlugin(channel: channel)
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 
