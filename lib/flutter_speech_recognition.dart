@@ -8,7 +8,7 @@ typedef void StringResultHandler(String text);
 
 class FlutterSpeechRecognition {
   static const MethodChannel _channel =
-  const MethodChannel('speech_recognition');
+  const MethodChannel('flutter_speech_recognition');
 
   static final FlutterSpeechRecognition _speech = new FlutterSpeechRecognition._internal();
 
